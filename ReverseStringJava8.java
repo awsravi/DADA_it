@@ -20,10 +20,6 @@ public class ReverseStringJava8 {
 
 		String s2 = "syed";
 
-		String rev = Arrays.stream(s2.split("")).sorted(Comparator.reverseOrder()).collect(Collectors.joining(""));
-
-		System.out.println(" Sorted use reversed string: "+rev);
-
 		// 3rd way
 		String inputString = "ABCD";
 
